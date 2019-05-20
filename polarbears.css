@@ -1,0 +1,70 @@
+/*
+* Grace Fairchild
+* 5/19/2019
+* Polar Bears
+*/
+
+/* The universal selector */
+
+* {
+    
+}
+
+{ margin: 0; padding: 0; }
+
+header h1 { /* Changing the text and border in the header in heading one */
+  text-align: center;
+  font-family: monospace;
+  color: cornflowerblue;
+  border-bottom: 6px solid cornflowerblue;
+  padding-bottom: 25px 
+}
+
+h1 { /* Changing font size of heading one */
+ font-size: 24pt;
+}
+
+main h1 { /* Changing heading one in the main */
+  text-align: left; 
+  font-family: serif;
+  color: skyblue;
+}
+
+p { /* Changing paragraph style */
+  font-family: sans-serif;
+  font-size: 12pt;
+  color: black; 
+}
+
+a:link { /* Changing the link color and adding decoration */
+    color:darkblue;
+    text-decoration:underline;
+}
+
+footer { /* Adding a top border */
+    border-top: 6px solid cornflowerblue; 
+    padding-top: 10px
+}
+
+footer p { /* Changing the footer's font style */
+    color: lightsteelblue;
+    font-size: 10pt;
+    font-family: sans-serif;
+}
+
+img { width: 250px; height: 200px;} /* Changing all the image sizing */
+
+h2 img { /* Adding borders to the image in heading 2 */
+  float:left;
+  border: 2px dashed black;
+  padding: 5px;
+  margin: 10px;
+}
+
+h3 img { /* Adding borders to the image in heading 3 */
+    float:right;
+    border: 2px solid lightblue;
+    padding: 5px;
+    margin: 10px;
+}
+
